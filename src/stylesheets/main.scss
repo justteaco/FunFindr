@@ -1,0 +1,213 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.hero-body {
+  background-image: url('https://payload.cargocollective.com/1/8/273621/11368201/jck_chronos.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  opacity: 1;
+}
+
+.marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  transform: translate(-50%, 50%);
+}
+
+#home-page {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#search-bar {
+  background-color: rgba(255, 255, 255, 0.904);
+  padding: 5px;
+  width: 400px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  border: coral 2px solid;
+  font-weight: 900;
+  color: black;
+  
+}
+
+#search-button {
+  padding: 5px;
+  margin: 30px 0;
+  width: 400px;
+  height: 45px;
+  font-size: 20px;
+  border: coral 2px solid;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  color: greenyellow;
+}
+
+.outer-container {
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  padding: 0 0 50px 0;
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  margin: 30px 0 0 0;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-left {
+  margin: 20px 0 0 0;
+}
+
+#event-name {
+  font-size: 50px;
+  font-family: 'Vibes', cursive;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-right {
+  margin: 0 0 0 30px;
+  width: 500px;
+  // height: 300px;
+}
+
+.bottom-left {
+  width: 600px;
+  padding: 0 20px 0 0;
+}
+
+.bottom-right {
+  width: 250px;
+}
+
+.map {
+  margin: 40px 0 0 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+h4.card-header-title {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50px;
+}
+
+h5.title.is-6 {
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  margin: 0;
+}
+
+div.card {
+  background-color: white;
+  border: greenyellow 2px solid;
+  max-width: 255px;
+  margin: 5px 0;
+}
+
+.img {
+  margin: 0 0 0 30px;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+h2 {
+  margin: 100px 0;
+}
+
+nav {
+  background-color: coral;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.location-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px 0 0;
+}
+
+.search-bar-nav {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  margin: 0 20px;
+  font-size: 20px;
+  padding: 3px;
+  border: 3px black solid;
+  border-radius: 2px;
+}
+
+#hidden {
+  visibility: hidden;
+}
+
+a.home-button {
+  color: white;
+  width: 100px;
+  z-index: 1;
+  font-weight: 850;
+  font-size: 22px;
+}
+
+section#no-results {
+  background-image: url('https://i.pinimg.com/originals/a2/bf/f3/a2bff36a34fb2ddae420cf5a928eb02f.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
