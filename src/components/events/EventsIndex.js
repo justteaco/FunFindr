@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+const apiKey = process.env.API_KEY
 
 import EventCard from './EventCard'
 
@@ -22,7 +23,7 @@ class EventsIndex extends React.Component {
 
   searchEvents = async (word) => {
     try {
-      const { data } = await axios.get(`https://www.skiddle.com/api/v1/events/search/?api_key=a1a7670d52f1193d3045c6ee90c3b5bc&keyword=${word}&limit=100&order=distance&description=1`)
+      const { data } = await axios.get(`https://www.skiddle.com/api/v1/events/search/?api_key=${apiKey}&keyword=${word}&limit=100&order=distance&description=1`)
       this.setState({ searchResult: data.results })
     } catch (err) {
       console.log(err)
