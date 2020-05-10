@@ -2,7 +2,7 @@
 
 # Software Engineering Immersive: Project 2
 
-This is my second project built while at General Assembley as a Software Engineering Immersive Student. It was a 3 day paired programming project. 
+This is my second project built while at General Assembly as a Software Engineering Immersive Student. It was a 3 day paired programming project. 
 
 
 # Fun Findr 
@@ -88,15 +88,7 @@ The ability to have a app that works and functions. That a user-friendly search 
 
 * With the time frame of three days given to complete this project, the pressure required my partner and I to use pure logic. It was a bit difficult finding an API that was acessible and free that both my parnter and I liked. Using Bulma at times was a bit challenging when it came to styling modifications. 
 
-
-
-
-
-
-
-
-
-
+<img src="https://i.ibb.co/nB99bVP/Screenshot-2020-05-10-at-23-53-15.png" width="400" height="250">
 
 
 
@@ -108,3 +100,12 @@ I plan to advance and improve this game by:
 * Making the grid bigger. 
 * Apply a countdown and highest scrore. 
 * Making the game mobile responsive.
+
+
+
+# Key Learnings 
+
+* Using React.js
+* Insomina 
+* Sass and Bulma
+* Utilising external API data and API keys
